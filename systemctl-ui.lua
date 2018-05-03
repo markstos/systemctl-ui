@@ -77,7 +77,7 @@ function  stop_and_disable ( unit )    ---------------------  stop_and_disable
 function  main  ( argv )    --------------------------------------------  main
 
   os .execute ( 'clear' )
-  print ( 'sacnning systemd units ...' )
+  print ( 'scanning systemd units ...' )
 
   local  message  =
     '  "Please select the Systemd units you wish to stop and disable."  '
